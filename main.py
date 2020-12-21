@@ -7,13 +7,10 @@ from scraping import news_data_url, news_data_title
 # Set slack webhook  url
 webhook_url = "Webhook url for your slack"
 
-# Call the function of your own module
-news_ulr = news_data_url()
-news_text = news_data_title()
-
 # Periodic execution function
 def job():
-    print("Job start")
+
+    # Call the function of your own module
     news_ulr = news_data_url()
     news_text = news_data_title()
 
