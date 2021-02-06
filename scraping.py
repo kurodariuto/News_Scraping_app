@@ -25,17 +25,3 @@ def news_data_title():
         print(texts.get_text())
         text_list.append(texts.get_text())
     return text_list
-
-
-
-
-
-
-
-
-
-
-
-
-
-
